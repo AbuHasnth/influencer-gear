@@ -67,5 +67,46 @@ nav{
 .banner-image{
     background-image: url(./influencer-gear-main/images/Circle\ design.svg);
     position: relative;
-    bottom: 70px;
+    bottom: 5rem;
+}
+
+.sponsor-img-container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 2rem auto;
+    
+}
+.sponsor-container{
+    border-bottom: 0.2px solid rgb(177, 175, 175);
+    border-top: 0.2px solid rgb(177, 175, 175);
+    margin-top: 3rem;
+}
+
+main{
+    margin: 0 auto;
+}
+
+.collection-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 10px 378px;
+}
+.product-container{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    /* width: 20rem;
+    height: 29rem; */
+    padding: 3rem;
+    margin: 1rem;
+    width: 329px;
+    height: 476px;
+    flex-shrink: 0;
+    
+    
+}
+main h1{
+    text-align: center;
+    margin-bottom: 30px;
 }
