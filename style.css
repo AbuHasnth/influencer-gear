@@ -88,9 +88,13 @@ main{
 }
 
 .collection-container{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin: 10px 378px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 74%;
+    margin: auto;
+    padding: 10px;
+    /* margin: 10px 378px; */
 }
 .product-container{
     border-radius: 5px;
@@ -106,7 +110,12 @@ main{
     
     
 }
+
 main h1{
     text-align: center;
     margin-bottom: 30px;
+}
+.product-container img{
+    width: 100%;
+    margin: auto;
 }
